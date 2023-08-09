@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.container {
+  background-color: #000000;
+  padding: 10px;
+  height: 100vh;
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #00e7ff;
+  font-size: 27px;
+  text-align: center;
+}
+.bitcoin-img {
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .bitcoin-img {
+    width: 1000px;
+  }
+}
