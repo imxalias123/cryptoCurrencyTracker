@@ -1,1 +1,23 @@
 /* Write your CSS code here */
+.currency-logo {
+  width: 20px;
+  height: 20px;
+}
+li {
+  display: flex;
+  padding-left: 0px;
+  margin-left: 0px;
+  align-items: center;
+  list-style-type: none;
+}
+.color {
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 10px;
+  width: 80px;
+}
+.flex-list {
+  display: flex;
+  width: 100px;
+  margin-right: 20px;
+}

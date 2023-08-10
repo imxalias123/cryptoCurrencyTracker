@@ -1,6 +1,6 @@
 // Write your JS code here
 import {Component} from 'react'
-import CrytocurrencyItem from '../CrytocurrencyItem'
+import CryptocurrencyItem from '../CryptocurrencyItem'
 import './index.css'
 
 class CryptocurrenciesList extends Component {
@@ -16,15 +16,16 @@ class CryptocurrenciesList extends Component {
           className="bitcoin-img"
         />
         <div className="table-container">
-          <p>Coin Type</p>
-          <div>
-            <p>USD</p>
-            <p>EURO</p>
+          <div className="table-flex">
+            <p className="header">Coin Type</p>
+            <div className="side-header">
+              <p className="header">USD</p>
+              <p className="header">EURO</p>
+            </div>
           </div>
-
           <ul>
             {currencyList.map(each => (
-              <CrytocurrencyItem currencyDetails={each} key={each.id} />
+              <CryptocurrencyItem currencyDetails={each} key={each.id} />
             ))}
           </ul>
         </div>

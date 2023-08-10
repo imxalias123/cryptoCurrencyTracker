@@ -17,6 +17,29 @@
 .bitcoin-img {
   width: 300px;
 }
+.header {
+  color: #ffffff;
+  margin-left: 8px;
+  width: 52px;
+  font-size: 16px;
+  margin: 0px;
+}
+.table-container {
+  border: 2px solid #00e7ff;
+  border-radius: 10px;
+  width: 270px;
+}
+.table-flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.side-header {
+  display: flex;
+}
 @media (min-width: 768px) {
   .heading {
     font-size: 50px;

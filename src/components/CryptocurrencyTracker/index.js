@@ -1,7 +1,7 @@
 // Write your code here
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
-import 'react-loader-spinner/dist/loader/react-spinner-loader.css'
+
 import './index.css'
 import CryptocurrenciesList from '../CryptocurrenciesList'
 
